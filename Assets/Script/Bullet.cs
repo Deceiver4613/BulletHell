@@ -10,6 +10,7 @@ public class Bullet : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.linearVelocity = transform.forward * speed;
+        
 
     }
     
