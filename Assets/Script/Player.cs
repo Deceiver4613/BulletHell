@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    
     void Update()
     {
         Vector3 direction = Vector3.zero;
