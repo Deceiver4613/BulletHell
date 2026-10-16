@@ -12,6 +12,7 @@ public class Bullet : MonoBehaviour
         rb.linearVelocity = transform.forward * speed;
 
     }
+    
 
     private void OnTriggerEnter(Collider other)
     {
