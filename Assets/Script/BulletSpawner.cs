@@ -4,7 +4,6 @@ public class BulletSpawnner : MonoBehaviour
 {
     public GameObject bulletPrefab;
     private Transform target;
-
     public float interval = 1f;
     private float timer = 0f;
     private void Start()
