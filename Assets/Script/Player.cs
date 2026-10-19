@@ -15,10 +15,11 @@ public class Player : MonoBehaviour
         direction.x = Input.GetAxis("Horizontal");
         direction.z = Input.GetAxis("Vertical");
 
-        if(direction.magnitude > 0)
+        if(direction.magnitude > 1f)
         {
             direction.Normalize();
         }
         rb.linearVelocity = direction * speed;
     }
 }
+
